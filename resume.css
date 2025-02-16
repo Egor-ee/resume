@@ -1,15 +1,11 @@
-.article {
-    background-color: #f2d1f5;
-    padding: 10px;
-    margin-bottom: 10px; 
-    border-radius: 20px;
-}
+
 
 .pop {
     background-color: #f2d1f5;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);
 }
 
 .pip {
@@ -17,32 +13,76 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);
 }
 
 .plp {
     background-color: #fee3ec;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 20px; 
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);
 }
+
 .op {
     background-color: #e4e8ff;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 20px;  
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
 }
-.io {
-    padding: 5px 0px 15px 5px ;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+
 
 .stil {
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);
     border-radius: 5%;
+}
+
+.form {
+    display: block;
+}
+
+.top {
+    
+    padding: 0px;
+    margin-bottom: 10px; 
+    border-radius: 20px;
+    display: flex;
+}
+
+.top h1 {
+    text-align: center; /* Центрировал текст */
+    padding: 0 ;
+}
+
+.io {
+    padding: 5px 0px 15px 5px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 0 ;
+    font-size: 30px;
+}
+
+.article p {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+article {
+    background-color: #d6b4eb;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.65);  
+}
+
+a:hover {
+    color: #d6b4eb;
+    font-size: 120%;
 }
