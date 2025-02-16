@@ -86,3 +86,40 @@ a:hover {
     color: #d6b4eb;
     font-size: 120%;
 }
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 10px;
+}
+
+@media (max-width: 1200px) {
+.container {
+    width: 1000px; 
+    grid-template-columns: 1fr 280px;
+}
+}
+
+@media (max-width: 1000px) {
+    .container { 
+        width: 768px;
+        grid-template-columns: 1fr 250px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 480px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px; 
+    }   
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%; 
+} 
+}
