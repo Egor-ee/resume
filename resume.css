@@ -114,7 +114,7 @@ a:hover {
     .container {
         width: 480px;
         grid-template-columns: 1fr;
-        grid-template-rows: 100px; 
+/*         grid-template-rows: 100px;  */
     }   
 }
 
