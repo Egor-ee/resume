@@ -134,8 +134,15 @@ a:hover {
 .article p {
         margin-top: 10px;
         margin-bottom: 6px;
+        
     }
 .container {
         width: 100%; 
 } 
+.article {
+    float: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+}
 }
