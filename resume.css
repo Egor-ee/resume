@@ -128,6 +128,13 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+.article p {
+        margin-top: 10px;
+        margin-bottom: 6px;     
+    }
+.container {
+        width: 100%; 
+} 
 .ctil {
         max-height: 100px;
         position: absolute; 
@@ -137,11 +144,4 @@ a:hover {
         width: 80%; 
         height: 80px;
 }
-.article p {
-        margin-top: 10px;
-        margin-bottom: 6px;     
-    }
-.container {
-        width: 100%; 
-} 
 }
