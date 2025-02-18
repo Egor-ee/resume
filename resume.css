@@ -133,9 +133,10 @@ a:hover {
         margin-bottom: 6px;     
     }
 .container {
-        width: 100%; 
+        width: 100%;
+        grid-template-columns: 1fr;
 } 
-.ctil {
+/* .ctil {
         max-height: 100px;
         position: absolute; 
         left: 50%; 
@@ -143,5 +144,5 @@ a:hover {
         transform: translate(-50%, -50%);
         width: 80%; 
         height: 80px;
-}
+} */
 }
