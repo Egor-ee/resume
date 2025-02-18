@@ -130,19 +130,18 @@ a:hover {
 @media (max-width: 480px) {
 .ctil {
         max-height: 100px;
+        position: absolute; 
+        left: 50%; 
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%; 
+        height: 80px;
 }
 .article p {
         margin-top: 10px;
-        margin-bottom: 6px;
-        
+        margin-bottom: 6px;     
     }
 .container {
         width: 100%; 
 } 
-.article {
-    float: none;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    
-}
 }
